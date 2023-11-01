@@ -4,9 +4,9 @@
 Th15 15 4 51mp13 pr06r4m d3516n3d 70 c0nv3r7 y0u 1n70 4 1337 h4x0r.
 */
 int main() {
-	char c = '.';
+	char c = '\0';
 	while((c = getchar()) != EOF) {
-		switch(c) {
+		switch(tolower(c)) {
 			case 'a':
 				putchar('4');
 				break;
